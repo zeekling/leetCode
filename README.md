@@ -2,8 +2,8 @@
 
 日常刷lintCode算法,提高自己的编码能力.
 
-## 简单
+[字符串相关](./src/string)
+[list相关](./src.list)
+[简单算法](./src/simple)
+[九章算法](./src/jiuzhang)
 
-
-## 中等
-- [三个数之和](leetCode/ThreeSum.md)
