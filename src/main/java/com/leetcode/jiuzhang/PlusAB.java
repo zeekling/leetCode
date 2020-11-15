@@ -18,7 +18,7 @@ public class PlusAB {
 		return a;
 	}
 
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		PlusAB ab = new PlusAB();
 		System.out.println(ab.plus(1,3));
 	}

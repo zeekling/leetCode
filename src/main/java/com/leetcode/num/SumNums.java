@@ -11,7 +11,8 @@ package com.leetcode.num;
 public class SumNums{
 
     public int sumNums(int n) {
-        boolean res = n > 0 && (n += sumNums(n-1)) > 0;
+        @SuppressWarnings("unused")
+		boolean res = n > 0 && (n += sumNums(n-1)) > 0;
         return n;
     }
 

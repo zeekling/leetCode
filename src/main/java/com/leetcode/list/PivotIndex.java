@@ -17,9 +17,8 @@ public class PivotIndex {
 		for (int i=0; i< len;i++){
 			sum += nums[i];
 		}
-		int idx = -1;
 		int leftSum = 0;
-		for (int i=0;i<len;i++){
+		for (int i = 0;i < len;i ++){
 
 			if ((leftSum * 2 + nums[i]) == sum){
 				return i;
