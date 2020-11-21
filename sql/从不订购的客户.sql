@@ -1,4 +1,4 @@
-## 题目
+/**
 某网站包含两个表，Customers 表和 Orders 表。编写一个 SQL 查询，找出所有从不订购任何东西的客户。
 
 Customers 表：
@@ -31,10 +31,9 @@ Orders 表：
 | Max       |
 +-----------+
 ```
+**/
 
-## 答案
-```sql
 select Name as Customers
 from Customers a
 where a.id not in (select CustomerId from Orders)
-```
+
