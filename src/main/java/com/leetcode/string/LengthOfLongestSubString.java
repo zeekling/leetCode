@@ -9,6 +9,8 @@ import java.util.Set;
  * 输入: "abcabcbb"
  * 输出: 3
  * 解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
+ * 
+ * https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
  *
  * @author zeekling
  * @version 1.0
@@ -31,5 +33,10 @@ public class LengthOfLongestSubString{
             }
         }
         return ans;
+    }
+    public static void main(String[] args) {
+        LengthOfLongestSubString lString = new LengthOfLongestSubString();
+        String s = "abcabcbb";
+        System.out.println(lString.lengthOfLongestSubstring(s));
     }
 }
